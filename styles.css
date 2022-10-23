@@ -1,0 +1,54 @@
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 60%;
+    height: 250px;
+    background-color: brown;
+    border-radius: 30px;
+    box-shadow: 0 0 30px;
+}
+
+#timer {
+    width: 100%;
+    font-size: 72px;
+    text-align: center;
+    margin: 0px auto;
+    padding-top: 35px;
+}
+
+.buttons {
+    text-align: center;
+    margin-top: 40px;
+
+}
+
+button {
+    margin: 0 10px;
+    border: none;
+    padding: 1px;
+    background-color: green;
+}
+
+button i {
+    font-size: 2rem;
+    padding: 10px;
+    color: white;
+    width: 50px;
+}
+
+#play {
+    background-color: green;
+}
+
+#pause{
+    background-color: orange;
+}
+
+#reset {
+    background-color: red;
+}
